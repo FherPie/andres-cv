@@ -1,0 +1,107 @@
+:root{
+    --theme-color: white;
+    /* --primary-color: rgb(0, 107, 200); */
+    --primary-color: #124f88;
+    --secondary-color: #f7c331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3A4460;
+
+  }
+
+  html{
+    scroll-behavior: smooth !important;
+  }
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 80px;
+}
+
+
+a{
+    text-decoration:none;
+    color: var(--text-color);
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+
+
+  @media (min-width: 950px) {
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+      .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+    
+
+  }
+
+
+
+table{
+    border-collapse: collapse;
+    border: none;
+}
+
+table.principal{
+    height: 1024px;
+}
+
+table.principal>tbody>tr>td:first-child{
+    width: 85%;
+    padding: 0px 40px 0px 30px;
+    font-size: smaller;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
+
+table.principal>tbody>tr>td:nth-child(2){
+    width: 25%;
+    color: white; 
+    background-color: rgb(42, 157, 143); 
+    padding: 20px 50px ;
+    vertical-align: text-top;
+    border-radius: 0px 0px 40px 40px ;
+    font-size: smaller;
+ 
+}
+
+.titleGreen{
+    color: var(--primary-color);
+}
+
+table.habilidades{
+    width: 100%;
+}
+
+table.habilidades>tbody>tr>td{
+   padding: 2px 0px 10px 0px;
+}
+
+.pill{
+    border-radius: 40px;
+    background-color:  rgb(42, 157, 143);
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
