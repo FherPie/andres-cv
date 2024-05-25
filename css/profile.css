@@ -7,8 +7,7 @@
 
 .profile-img {
     width: 40%;
-    max-width: 300px;
-    transform: scaleX(-1);
+    max-width: 220px;
 }
 
 .profile-img-section {
@@ -68,7 +67,7 @@
 
     .profile-img {
         width: 100%;
-        max-width: 350px;
+        max-width: 220px;
         transform: scaleX(-1);
     }
 
@@ -88,7 +87,7 @@
 
     .profile-details {
         font-size: 25px;
-        margin: 30px 0;
+        margin: 30px 0 40px 0 ; 
     }
 
 
@@ -98,6 +97,11 @@
 
     .profile-btn:hover {
         filter: brightness(130%);
+    }
+
+    .image-name{
+        background-image: url("img/nombre.svg");
+
     }
 
 }
