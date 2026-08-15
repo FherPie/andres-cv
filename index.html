@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/animated.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -96,17 +97,19 @@
         </nav>
     </header>
 
-    <div class="horizontal-padding vertical-padding">
-        <section class="profile" id="profile">
+    <div class="horizontal-padding vertical-padding ">
+        <section class="profile fadeInUp-block" id="profile">
             <div class="profile-info">
                 <h1 class="profile-title">Hola, soy <br />
                     ANDRÉS<br />
-                    <span class="profile-title-highlight">Analista Desarrollador</span>
+                                <span style="margin-top: 48px;" class="typing-text">Nice Code Nice Live</span>
+
                 </h1>
 
 
-                <p class="profile-details">
-               Atraves de más de 10 años de experiencia en desarrollo de software, he trabajado 
+
+            <p style="margin-top: 48px;" class="profile-details">
+               Atraves de más de 10 años de experiencia en  <strong> analisis y desarrollo</strong> de software, he trabajado 
                en diversos proyectos utilizando tecnologías como Java, Angular, Spring y más. 
                Mi enfoque principal es crear soluciones eficientes y escalables que cumplan
                 con los objetivos del negocio y brinden una excelente experiencia al usuario.
@@ -139,7 +142,7 @@
 
         <div class="experiences-body">
             <h2 class="experiences-title">Experiencia</h2>
-            <div class="experiences-grid">
+            <div class="experiences-grid fadeInUp-block">
                 <div class="empty"></div>
                 <div class="line"></div>
                 <div class="experience">
@@ -252,7 +255,7 @@
                 fill="currentColor" />
 
         </svg>
-                    <a class="profile-btn" href="CvAndresPiedraAndrade.pdf" download>Descargar cv</a>
+                    <a class="profile-btn fadeInUp-block bounce-block" href="CvAndresPiedraAndrade.pdf" download>Descargar cv</a>
 
         <!-- <img src="img/wave.svg" alt="division" class="wave wave-botom" /> -->
     </section>
@@ -263,7 +266,7 @@
     <div class="horizontal-padding vertical-padding">
         <section class="skills" id="skills">
             <h2 class="skills-title">Habilidades</h2>
-            <ul class="skills-list">
+            <ul class="skills-list fadeInUp-block">
                 <li class="skills-skill">CSS</li>
                 <li class="skills-skill">HTML</li>
                 <li class="skills-skill">Java</li>
@@ -278,7 +281,7 @@
         <section class="contact" id="contact">
 
             <h2 class="contact-title">Contacto</h2>
-            <div class="contact-details">
+            <div class="contact-details fadeInUp-block">
                 <div class="contact-details-group">
                     <div class="contact-label">Dirección: </div>
                     <div class="contact-text">Quito, Ecuador</div>
@@ -292,7 +295,7 @@
                 </div>
             </div>
 
-            <form class="contact-form" name="contact-form" method="POST" data-netlify="true">
+            <form class="contact-form fadeInUp-block" name="contact-form" method="POST" data-netlify="true">
                 <div class="contact-form-group">
                     <label for="name">Nombre</label>
                     <input required type="text" name="name" id="name" />

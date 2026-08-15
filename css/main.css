@@ -1,5 +1,5 @@
 :root{
-    --theme-color: white;
+    --theme-color: rgba(213, 213, 213, 0.647);
     /* --primary-color: rgb(0, 107, 200); */
     --primary-color: #124f88;
    /*  --primary-color: black;*/
@@ -20,7 +20,7 @@
   /* @media (prefers-color-scheme: dark) { */
   :root[data-theme="dark"] {
     --theme-color: #0f172a;
-    --primary-color: #243043;
+    --primary-color: #05214e;
     --secondary-color: #9dc8db;
     --text-color: rgba(255, 255, 255, 0.87);
     --text-color-inverse: var(--text-color);

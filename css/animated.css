@@ -1,0 +1,98 @@
+/* 1. Definir la animación con @keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px); /* Empieza 30px más abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);    /* Llega a su posición original */
+  }
+}
+
+/* 2. Aplicar la animación a la clase del div */
+.fadeInUp-block {
+  /* Configuración de la animación: nombre, duración, suavizado y estado final */
+  animation: fadeInUp 0.6s ease-out forwards; 
+  
+  /* Estilos visuales del bloque (opcional) 
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+
+/* 1. Definir la física del rebote con @keyframes */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Posición original (suelo) */
+  }
+  40% {
+    transform: translateY(-20px); /* Primer rebote (el más alto) */
+  }
+  60% {
+    transform: translateY(-10px); /* Segundo rebote (más bajo) */
+  }
+}
+
+/* 2. Aplicar la animación al bloque */
+.bounce-block {
+  /* Nombre, duración, tipo de curva y repetición infinita */
+  animation: bounce 2s infinite; 
+  
+  /* Estilos visuales del bloque (opcional) 
+  display: inline-block;
+  background-color: #f0f4f8;
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;*/
+}
+
+
+
+/* 1. Definir los keyframes para el texto y el cursor */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #007bff; } /* Color del cursor */
+}
+
+/* 2. Aplicar la animación al bloque de texto */
+.typing-text {
+  font-family: 'Courier New', Courier, monospace; /* Obligatorio: fuente monoespaciada */
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;      /* Evita que el texto salte de línea */
+  overflow: hidden;         /* Oculta las letras antes de ser escritas */
+  border-right: 3px solid #007bff; /* Simula el cursor de texto */
+  
+  /* Ajusta el ancho al número exacto de caracteres (incluyendo espacios). 
+     "Código CSS limpio y rápido." tiene 28 caracteres. */
+  max-width: 19ch; 
+  
+  /* Animación combinada: 
+     - typing: tarda 3.5s, pasos fijos según los caracteres, se queda al final (forwards)
+     - blink-caret: parpadeo infinito del cursor */
+  animation: 
+    typing 3.5s steps(28) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+/* Estilo del bloque contenedor (opcional) */
+.contenedor-tarjeta {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  display: inline-block;
+}
+
+.texto-cursiva {
+  font-style: italic;
+}
