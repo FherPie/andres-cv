@@ -1,9 +1,9 @@
 :root{
     --theme-color: rgba(213, 213, 213, 0.647);
     /* --primary-color: rgb(0, 107, 200); */
-    --primary-color: #124f88;
+    --primary-color: #0e7c7b;
    /*  --primary-color: black;*/
-    --secondary-color: #f7c331;
+    --secondary-color: #3cc4dc;
     --text-color-inverse: white;
     --text-color: black;
     --navbar-shallow-color: #e5e5e5;
@@ -20,8 +20,8 @@
   /* @media (prefers-color-scheme: dark) { */
   :root[data-theme="dark"] {
     --theme-color: #0f172a;
-    --primary-color: #05214e;
-    --secondary-color: #9dc8db;
+    --primary-color: #0b4a4b;
+    --secondary-color: #4fd1c5;
     --text-color: rgba(255, 255, 255, 0.87);
     --text-color-inverse: var(--text-color);
     --menu-mobile-background-color: #18213e;

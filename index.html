@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andrés Fernando</title>
-    <meta name="description" content="">
+    <title>Andrés Piedra | Desarrollador Java Spring Boot & Angular · Creador de Ortoaura</title>
+    <meta name="description" content="Desarrollador Full Stack con más de 10 años de experiencia en Java, Spring Boot y Angular Material. Creador de Ortoaura, software de gestión para clínicas dentales.">
+    <meta property="og:title" content="Andrés Piedra | Full Stack & Creador de Ortoaura">
+    <meta property="og:image" content="img/ortoaura/dashboardreal.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
 
@@ -44,6 +46,7 @@
     <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/animated.css">
+    <link rel="stylesheet" href="css/ortoaura.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -58,7 +61,7 @@
                 <img src="img/foto.png" height="50px" width="50px" />
                 <div>
                     Andrés Fernando Piedra <br />
-                    Analyst Programmer
+                    Full Stack Developer
                 </div>
             </a>
 
@@ -67,8 +70,9 @@
                     <img src="img/close-icon.svg" alt="cerrar menú" />
                 </button>
                 <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#ortoaura">Ortoaura</a></li>
                 <li><a href="#experience">Experiencia</a></li>
-                <li><a href="#skills">Habilidades</li>
+                <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
             <button class="dark-mode-btn" aria-label="Activar modo oscuro">
@@ -100,38 +104,90 @@
     <div class="horizontal-padding vertical-padding ">
         <section class="profile fadeInUp-block" id="profile">
             <div class="profile-info">
-                <h1 class="profile-title">Hola, soy <br />
-                    ANDRÉS<br />
-                                <span style="margin-top: 48px;" class="typing-text">Nice Code Nice Live</span>
+                <p class="hero-eyebrow">Full Stack Developer · Tech Lead</p>
+                <h1 class="profile-title">Hola, soy <br />ANDRÉS</h1>
+                <p class="hero-role">Java <span>Spring Boot</span> · <span>Angular Material</span><br />
+                    Creador de <a class="hero-brand" href="#ortoaura">Ortoaura</a></p>
 
-                </h1>
-
-
-
-            <p style="margin-top: 48px;" class="profile-details">
-               Atraves de más de 10 años de experiencia en  <strong> analisis y desarrollo</strong> de software, he trabajado 
-               en diversos proyectos utilizando tecnologías como Java, Angular, Spring Boot y PostgreSQL. 
-               Mi enfoque principal es crear soluciones eficientes y escalables que cumplan
-                con los objetivos del negocio y brinden una excelente experiencia al usuario.<br>
-                 Debido a que me encanta resolver problemas fundé la Agencia de Automatización: <br>  <a href="https://webverso.online/"> 🚀Webverso </a> 
+                <p class="profile-details">
+                    Más de <strong>10 años</strong> diseñando y liderando el desarrollo de software empresarial.
+                    Creé <strong>Ortoaura</strong>, un sistema de gestión para clínicas dentales: de la idea y la
+                    arquitectura al producto en producción.
                 </p>
-                        <p class="profile-details english cursive">
-                Through over 10 years of experience in software development, I have worked
-                on various projects using technologies such as Java, Angular, Spring Boot, and PostgreSQL.
-                My main focus is to create efficient and scalable solutions that meet        
-                   business objectives and provide an excellent user experience.   <br>
-                   Because I love solving problems, I founded the Automation Agency:
-                   <a href="https://webverso.online/"> 🚀Webverso </a> 
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#ortoaura">Conocer Ortoaura</a>
+                    <a class="btn btn-ghost" href="CvAndresPiedraAndrade.pdf" download>Descargar CV</a>
+                </div>
+
+                <ul class="hero-stats">
+                    <li><strong>10+</strong><span>años de experiencia</span></li>
+                    <li><strong>1</strong><span>producto SaaS propio</span></li>
+                    <li><strong>Full&nbsp;Stack</strong><span>Java · Angular</span></li>
+                </ul>
+
+                <p class="profile-details english cursive">
+                    Full Stack developer with 10+ years of experience leading enterprise projects in Java, Spring Boot and Angular.
+                    Creator of Ortoaura, a dental practice management platform.
+                    <!-- Founder of <a href="https://webverso.online/">🚀 Webverso</a>, an automation agency. -->
                 </p>
-                
             </div>
             <span class="profile-img-section">
-                <img class="profile-img" src="img/foto.png" alt="developer" />
+                <img class="profile-img" src="img/foto3.png" alt="Andrés Piedra, desarrollador Full Stack" />
                 <div class="profile-img-line"></div>
               
             </span>
         </section>
     </div>
+
+    <section class="ortoaura" id="ortoaura">
+        <div class="ortoaura-inner horizontal-padding vertical-padding">
+            <header class="ortoaura-header fadeInUp-block">
+                <img class="ortoaura-logo" src="img/ortoaura/logo.png" alt="Logo de Ortoaura" width="72" height="72" />
+                <p class="section-eyebrow">Producto propio</p>
+                <h2 class="ortoaura-title">Ortoaura</h2>
+                <p class="ortoaura-tagline">Software de gestión dental: pacientes, agenda, historial clínico,
+                    tratamientos, presupuestos y finanzas en un solo lugar.</p>
+                <div class="hero-actions center">
+                    <a class="btn btn-primary" href="https://crm-sonrisa-crm-sonrisa-frontend.wig3md.easypanel.host/beta"
+                        target="_blank" rel="noopener">Ver demo en vivo ↗</a>
+                </div>
+            </header>
+
+            <div class="ortoaura-showcase fadeInUp-block">
+                <figure class="shot shot-main">
+                    <div class="shot-bar"><i></i><i></i><i></i></div>
+                    <img src="img/ortoaura/dashboardreal.png" alt="Dashboard de Ortoaura con citas del día y finanzas" loading="lazy" />
+                </figure>
+                <figure class="shot">
+                    <div class="shot-bar"><i></i><i></i><i></i></div>
+                    <img src="img/ortoaura/citas_agenda.png" alt="Agenda de citas de Ortoaura" loading="lazy" />
+                    <figcaption>Agenda de citas</figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-bar"><i></i><i></i><i></i></div>
+                    <img src="img/ortoaura/historial_clinico.png" alt="Historial clínico del paciente en Ortoaura" loading="lazy" />
+                    <figcaption>Historial clínico</figcaption>
+                </figure>
+            </div>
+
+            <ul class="ortoaura-features fadeInUp-block">
+                <li><h3>Pacientes e historial</h3><p>Ficha clínica completa y seguimiento por paciente.</p></li>
+                <li><h3>Agenda inteligente</h3><p>Citas por sillón y profesional, con estados en tiempo real.</p></li>
+                <li><h3>Tratamientos y presupuestos</h3><p>Planes de tratamiento y cotizaciones claras para el paciente.</p></li>
+                <li><h3>Cobros y finanzas</h3><p>Ingresos, egresos y balance mensual de toda la clínica.</p></li>
+            </ul>
+
+            <div class="ortoaura-stack fadeInUp-block">
+                <span class="stack-label">Construido con</span>
+                <ul class="chips">
+                    <li>Java</li><li>Spring Boot</li><li>Angular</li><li>Angular Material</li>
+                    <li>PostgreSQL</li><li>Docker</li>
+                </ul>
+                <p class="ortoaura-role">Mi rol: arquitectura, liderazgo técnico y desarrollo full stack end-to-end.</p>
+            </div>
+        </div>
+    </section>
 
 
     <section class="experiences" id="experience">
@@ -268,19 +324,20 @@
     <div class="horizontal-padding vertical-padding">
         <section class="skills" id="skills">
             <h2 class="skills-title">Habilidades</h2>
-            <ul class="skills-list fadeInUp-block">
-                <li class="skills-skill">CSS</li>
-                <li class="skills-skill">HTML</li>
-                <li class="skills-skill">Java</li>
-                <li class="skills-skill">Angular</li>
-                <li class="skills-skill">Typescript</li>
-                <li class="skills-skill">Javascript</li>
-                 <li class="skills-skill">Spring Boot</li>
-                <li class="skills-skill">PostgreSQL</li>
-                     <li class="skills-skill">Docker</li>
-                      <li class="skills-skill">Wordpress</li>
-
-            </ul>
+            <div class="skills-groups fadeInUp-block">
+                      <div class="skills-group">
+                          <h3>Backend</h3>
+                          <ul class="chips"><li>Java</li><li>Spring Boot</li><li>REST</li><li>Microservicios</li></ul>
+                      </div>
+                      <div class="skills-group">
+                          <h3>Frontend</h3>
+                          <ul class="chips"><li>Angular</li><li>Angular Material</li><li>TypeScript</li><li>HTML / CSS</li></ul>
+                      </div>
+                      <div class="skills-group">
+                          <h3>Datos &amp; DevOps</h3>
+                          <ul class="chips"><li>PostgreSQL</li><li>Docker</li><li>Automatización</li></ul>
+                      </div>
+            </div>
         </section>
     </div>
 
@@ -321,11 +378,11 @@
             <nav class="social">
                 <ul class="social-list">
                     <li class="social-item">
-                        <a href="https://github.com/FherPie"><img src="img/social/github.svg" alt="twitter profile"></a>
+                        <a href="https://github.com/FherPie"><img src="img/social/github.svg" alt="Perfil de GitHub"></a>
                     </li>
                     <li class="social-item">
                         <a href="https://www.linkedin.com/in/andresfernandopiedra"><img src="img/social/linkedin.svg"
-                                alt="twitter profile"></a>
+                                alt="Perfil de LinkedIn"></a>
                     </li>
                 </ul>
             </nav>

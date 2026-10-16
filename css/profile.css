@@ -75,7 +75,7 @@
     .profile-img {
         width: 100%;
         max-width: 220px;
-        transform: scaleX(-1);
+       // transform: scaleX(-1);
     }
 
 
