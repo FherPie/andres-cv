@@ -105,6 +105,7 @@
   box-shadow: var(--tag-shadow);
   text-align: center;
 }
+.skills-group.hobbies-group { grid-column: 1 / -1; }
 .skills-group h3 { margin: 0; color: var(--accent-color); text-transform: uppercase; letter-spacing: 0.08em; font-size: 15px; }
 
 @media (min-width: 950px) {
