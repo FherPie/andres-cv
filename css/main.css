@@ -21,7 +21,7 @@
   :root[data-theme="dark"] {
     --theme-color: #0f172a;
     --primary-color: #0b4a4b;
-    --secondary-color: #4fd1c5;
+    --secondary-color: #792EFF;
     --text-color: rgba(255, 255, 255, 0.87);
     --text-color-inverse: var(--text-color);
     --menu-mobile-background-color: #18213e;
